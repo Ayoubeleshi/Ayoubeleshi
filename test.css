@@ -1,0 +1,104 @@
+body{
+
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+line-height: 1.6;
+width: 80%;
+margin: auto;
+
+
+}
+
+.box-1{
+    background-color:yellow;
+    color: black;
+
+    border: 5px red solid;
+
+   padding: 20px;
+
+   margin: 20px;
+
+   
+    
+
+}
+
+.box-1 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.box-2{
+    border: 3px dotted red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding:20px;
+    margin: 20px;
+
+}
+.dashbored{
+    border: 1px red solid;
+
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+a{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-size: small;
+
+
+}
+
+.dashbored h2{ 
+    text-align-last: center;
+    color: yellowgreen;
+}
+
+.dashbored ul{
+    list-style: none yellow;
+    list-style:none;
+    padding: 10px;
+}
+
+.dashbored li{
+    padding: 6px;
+    border-bottom:dotted red;
+    list-style: circle;
+}
+
+.my-form{
+    padding: 20px
+}
+.my-form .FORM-GROUP{
+    padding-bottom: 20px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 10px;
+    width: 100%;
+}
+
+.botton{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 20%;
+
+}
+    
+    
+.botton:hover{
+   background: red;
+   color: blanchedalmond;
+
+
