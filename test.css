@@ -20,7 +20,7 @@ margin: auto;
 
    margin: 20px;
 
-   
+
     
 
 }
@@ -100,5 +100,13 @@ font-size: small;
 .botton:hover{
    background: red;
    color: blanchedalmond;
+}
 
+.block{
+    box-sizing: border-box;
+
+
+
+
+}
 
