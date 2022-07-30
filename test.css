@@ -102,10 +102,9 @@ font-size: small;
    color: blanchedalmond;
 }
 
-.block{
+.bb{
+    float: left;
     box-sizing: border-box;
-
-
 
 
 }
