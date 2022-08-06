@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: aqua;
+
+}
+header{
+    background-color: #eadcff ;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+h1{
+    font-size: 60px; px;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+
+
+
+}
+
+
+.subhead{
+    font-size:  24px;p ;
+
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 8px 16px ;
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+
+
+
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 700px;
+
+}
+
+
+.logo{
+   width: 600px;
+
+
+}
+
+ul{
+    display: flex;
+}
+
+
+li{
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+#about{
+    padding: 46px 0;
+    background-color: beige;
+
+}
+
+.section__discribtion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+    padding: 0 24px;
+}
+img{
+    width: 100%;
+
+
+
+}
+.section__discribtion--wrapper{
+    width: 60% ;
+    padding: 0 24px;
+
+}
+
+.section__discribtion--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+
+
+
+}
+#discord{
+    background-color: aqua;
+    padding: 46px 0;
+}
+
+
+
+#contact{
+    background-color: lightgoldenrodyellow;
+    padding: 46px 0;
+}
+form{
+    width: 100%;
+    max-width:600px ;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0% auto;
+
+
+}
+input, textarea {
+    margin-bottom: 24px;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.footer__logo{
+    padding: 40px;
+    max-width: 500px;
+    margin-bottom: 16px;
+
+}
+.Footer__links{
+    padding: 0 16px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    font-size: 20px;
+    
+
+
+}
+/* small phones, tablets, large smartphones*/
+
+@media(max-width: 720px;) {
+    .row{
+        flex-direction: column;
+
+    }
+    .home__discribtion{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .homer__discribtion--button{
+        max-width: 240px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+    .subheader{
+        text-align: center;
+        font-size: 28px;
+
+
+    }
+    ul {
+        display: none;
+}
+.section__discribtion{
+    flex-direction: column;
+}
+
+.section__discribtion--wrapper{
+    width: 100%;
+}
+.about__img--wrapper{
+    width: 100%;
+
+
+}
+#discord .section__discribtion{
+    flex-direction: column-reverse;
+}
+
+footer {padding: 48px 24px;
+
+}
+
+.footer__logo{
+    max-width: 360px;
+}
+.Footer__link{
+    padding: 0 8px;
+    font-size: 18px;
+}
+.Footer__links{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+}
+
+
+
